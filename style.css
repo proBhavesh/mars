@@ -1,0 +1,28 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: green;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.bg-svg {
+	background: url("bg.svg");
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+}
+
+.hey {
+	font-size: 10rem;
+}
